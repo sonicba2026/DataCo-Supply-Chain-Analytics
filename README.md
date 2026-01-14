@@ -32,3 +32,12 @@ Together, these dashboards illustrate how analytics can connect sales outcomes w
 - KPI design and trend analysis
 - Stakeholder-focused dashboard development
 - Data storytelling
+
+## About the Author
+
+I am Sonic, Master of Technology (Enterprise Systems and Business Analytics) graduate with a strong interest in Business Intelligence and data-driven decision-making.  
+Skilled in SQL Server, Power BI, Python, SAP ERP, SAP Lumira, BPMN, Advanced Excel and data mining with a focus on stakeholder-focused dashboards and analytical storytelling.
+
+🔗 LinkedIn: https://www.linkedin.com/in/sonic-le-ba60b3171/
+💻 GitHub: https://github.com/sonicba2026
+
