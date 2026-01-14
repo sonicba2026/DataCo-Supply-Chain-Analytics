@@ -1,0 +1,43 @@
+--SELECT customer_id, COUNT(*) AS repeat_count
+--FROM dataco_clean
+--GROUP BY Customer_Id
+--HAVING COUNT(*) > 1;
+--ALTER TABLE dataco_clean
+--ADD repeated_customer VARCHAR(50)
+--update dataco_clean
+--set repeated_customer = null
+--WITH customer_orders AS (
+--    SELECT
+--        Customer_Id,
+--        Order_Id,
+--        COUNT(*) OVER (PARTITION BY Customer_Id) AS order_count,
+--        ROW_NUMBER() OVER (
+--            PARTITION BY Customer_Id
+--            ORDER BY Order_Id
+--        ) AS rn
+--    FROM dataco_clean
+--)
+--UPDATE dc
+--SET repeated_customer =
+--    CASE
+--        WHEN co.order_count > 1 AND co.rn = 1
+--            THEN 'Repeated Customer'
+--        WHEN co.order_count = 1
+--            THEN 'Single Purchase Customer'
+--        ELSE NULL
+--    END
+--FROM dataco_clean dc
+--JOIN customer_orders co
+--    ON dc.Customer_Id = co.Customer_Id
+--   AND dc.Order_Id = co.Order_Id;
+--SELECT Customer_Id, COUNT(*) AS marked_times
+--FROM dataco_clean
+--WHERE repeated_customer = 'Repeated Customer'
+--GROUP BY Customer_Id
+--HAVING COUNT(*) > 1;
+--select *
+--from dataco_clean
+--where Product_Card_Id like 60
+
+
+
