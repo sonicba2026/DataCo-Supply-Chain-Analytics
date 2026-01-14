@@ -17,10 +17,10 @@ Four stakeholder-focused dashboards were delivered:
 Together, these dashboards illustrate how analytics can connect sales outcomes with operational performance, uncover hidden risks, and guide data-driven decision-making. The project reflects real-world Business Intelligence practices, including data cleaning, KPI design, analytical storytelling, and stakeholder alignment.
 
 ## Dashboards Delivered
-- Executive & Management Dashboard
-- Operations & Supply Chain Dashboard
-- Sales & Customer Insights Dashboard
-- Product & Inventory Performance Dashboard
+- Executive & Management Dashboard (Dataco1.PNG)
+- Operations & Supply Chain Dashboard (Dataco2.PNG)
+- Sales & Customer Insights Dashboard (Dataco3.PNG)
+- Product & Inventory Performance Dashboard (Dataco4.PNG)
 
 ## Tools Used
 - SQL Server
